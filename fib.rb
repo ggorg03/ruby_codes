@@ -5,3 +5,7 @@ def fib(n)
         fib(n - 1) + fib(n - 2)
     end
 end
+
+def fib_serie(n)
+    (0...n).map { |num| fib num }
+end
